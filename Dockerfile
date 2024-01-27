@@ -4,7 +4,7 @@ FROM teslamate/grafana:${TESLAMATE_TAG} as grafana
 
 #---
 
-FROM teslamate/teslamate:${TESLAMATE_TAG}
+FROM ghcr.io/teslamate-org/teslamate:pr-3630
 
 ARG ARCH
 ARG BASHIO_VERSION=0.11.0
